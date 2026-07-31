@@ -1,8 +1,25 @@
 aid: nakad
 name: NAKAD
-description: 'NAKAD is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the enrichment pipeline.'
+description: 'NAKAD is India''s leading Reconciliation-as-a-Service platform, a fintech
+  delivering cash-flow and working-capital solutions to small businesses and MSMEs.
+  Its proprietary MicroBill technology enables lending and loans through invoice discounting,
+  invoice factoring and reverse factoring so suppliers receive early payment, with
+  built-in reconciliation for accounts receivable, accounts payable, payments, debit
+  notes, credit notes and banking. Backed by Accel. No public developer API surface,
+  documentation, SDKs, or well-known discovery documents were found during enrichment.'
 url: https://raw.githubusercontent.com/api-evangelist/nakad/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.nakad.co/logo192.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,10 +28,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Fintech
+- Reconciliation
+- Invoice Financing
+- Working Capital
+- MSME
+- Lending
+- Payments
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +46,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/nakad-domain-security.yml
 - type: Website
   url: https://www.nakad.co/
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
