@@ -8,6 +8,17 @@ description: 'NAKAD is India''s leading Reconciliation-as-a-Service platform, a 
   notes, credit notes and banking. Backed by Accel. No public developer API surface,
   documentation, SDKs, or well-known discovery documents were found during enrichment.'
 url: https://raw.githubusercontent.com/api-evangelist/nakad/refs/heads/main/apis.yml
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
